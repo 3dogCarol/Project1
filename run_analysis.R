@@ -1,8 +1,8 @@
 #Read the data
 
-#url <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip "
-#download.file(url, dest = "accelerometers.zip" ,method = "curl")
-#unzip("accelerometers.zip", exdir="./data")
+url <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip "
+download.file(url, dest = "accelerometers.zip" ,method = "curl")
+unzip("accelerometers.zip", exdir="./data")
 
 
 #The first step in the analysis was to combine the files subject_test.txt, y_test.txt, and X_test.txt to create one file such that each row is identified by the subject and activity and contains all the variables for that case. The second step is to combine the files subject_train.txt, y_train.txt, and X_train.txt to generate the same kind of file for the subjects in the training group.
