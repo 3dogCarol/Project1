@@ -87,5 +87,5 @@ for(i in 1:30){
 }
 names(z) <-names(totdata)
 file = "./meansOfmeansAndstds.txt"
-write.table(z,file,sep=" ")
+write.table(z,file,sep=" ",row.name = FALSE)
 
